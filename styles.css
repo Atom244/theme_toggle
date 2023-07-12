@@ -1,5 +1,8 @@
 body {
   /* Светлая тема */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   color: black;
   transition: background-color 1s ease, color 1s ease;
@@ -13,6 +16,7 @@ body.dark-theme {
 #theme-toggle {
   padding: 10px 20px;
   cursor: pointer;
+  padding: 10px 20px;
 }
 
 #theme-toggle.dark-theme {
