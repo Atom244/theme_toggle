@@ -1,0 +1,20 @@
+body {
+  /* Светлая тема */
+  background-color: white;
+  color: black;
+  transition: background-color 1s ease, color 1s ease;
+}
+
+body.dark-theme {
+  /* Темная тема */
+  background-color: black;
+  color: white;
+}
+#theme-toggle {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#theme-toggle.dark-theme {
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.857);
+}
